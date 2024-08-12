@@ -1,0 +1,1 @@
+worker: python gudong_listing_test2.py
