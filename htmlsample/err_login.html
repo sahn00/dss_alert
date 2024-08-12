@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+  <head>
+    <title>Dossa Mobile</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes, target-densitydpi=medium-dpi"
+    />
+
+    <meta name="Subject" content="도싸,DOSSA" />
+    <meta name="Author" content="도싸,DOSSA" />
+    <meta name="Title" content="도싸,DOSSA" />
+    <meta name="description" content="도싸,DOSSA" />
+    <meta name="keywords" content="도싸,DOSSA,로드바이크,자전거,미니벨로,MTB" />
+    <meta http-equiv="imagetoolbar" content="no" />
+
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <style type="text/css">
+    <!--
+
+    @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+    body {
+      margin-left:    0px;
+      margin-top:     0px;
+      margin-right:   0px;
+      margin-bottom:  0px;
+
+
+      -webkit-text-size-adjust:none;
+    }
+
+    body,table,input,textarea { font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:13px; color:#000000; line-height:15px; }
+
+    .top_bg
+    {
+    background-image : url(/img/top_bg3.png);
+    background-repeat : repeat-x;
+    background-position : top left;
+    }
+
+    a {text-decoration:none; color:#000000;}
+    a { selector-dummy : expression(this.hideFocus=true);}
+    a:hover {text-decoration:underline;}
+
+    .hand   {cursor: pointer;}
+
+    iframe
+    {
+      //width:          100%;
+     // height:         100%;
+    }
+
+    img {border: none;}
+
+    .btn_cmt { font-family:돋움,돋움체; font-size:12px; color:#555555; border:1px solid #cccccc; background-color:#ffffff; width:36px; height:23px; text-align:center; cursor:pointer; padding:0px; margin:0; }
+
+    .text_cut { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; -ms-text-overflow:ellipsis; }
+
+    .text_cut2 { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+    /*** 버튼 START ***/
+
+    .table_F_nor { padding:3px; border-style:solid; border-width:1px; border-color:#cccccc; background: #f7f7f7; }
+    .table_F_dot { padding:3px; border-style:dashed; border-width:1px; border-color:#cccccc; background: #f7f7f7; }
+    .table_R_nor { padding:3px; border-style:solid; border-width:1px; border-color:#cccccc; background: #f7f7f7; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+    .table_R_dot { padding:3px; border-style:dashed; border-width:1px; border-color:#cccccc; background: #f7f7f7; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+
+    .bt_R_nor {
+      width:100%;height:28px; padding:3px; border-style:solid; border-width:1px; border-color:#cccccc; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;
+      text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:12px; color:#000000; line-height:12px; letter-spacing:-1px; text-align:center;
+      background-image:url(/img/bt_bg.png); background-repeat:repeat-x; background-position:center left; cursor:pointer;
+    }
+
+    .bt_R_big {
+      width:100%;height:30px; padding:1px; border-style:solid; border-width:1px; border-color:#cccccc; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;
+      text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:14px; color:#000000; line-height:14px; letter-spacing:-1px; text-align:center;
+      background-image:url(/img/bt_bg2.png); background-repeat:repeat-x; background-position:center left; cursor:pointer;
+    }
+
+    .btn_cmt { font-family:돋움,돋움체; font-size:12px; color:#777777; border:1px solid #cccccc; background-color:#ffffff; width:36px; height:23px; text-align:center; cursor:pointer; padding:0px; margin:0; }
+
+    .btn_like { font-family:돋움,돋움체; font-size:12px; color:#777777; border:1px solid #cccccc; background-color:#ffffff; width:36px; height:23px; text-align:center; cursor:pointer; padding:0px; margin:0; }
+
+    .btn_cmt_in { border:0px solid #cccccc; background-color:#000000; width:100%; height:100%; text-align:center; cursor:pointer; padding:0px; margin:0; }
+    .btn_cmt_re { border:0px solid #cccccc; background-color:#555555; width:100%; height:100%; text-align:center; cursor:pointer; padding:0px; margin:0; }
+
+
+    .bt_bd  {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:14px; color:#000000; line-height:14px; letter-spacing:-1px;}
+
+    .bt_wish_del  {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:15px; color:#000000; font-weight:bold;}
+
+    /*** 버튼 END ***/
+
+    .login_title  {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:25px; color:#000000; font-weight:bold; letter-spacing:-1px;}
+    .login_txt  {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:15px; color:#000000; font-weight:bold;}
+
+    .f_text_help {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#777777; line-height:13px; letter-spacing:-1px;}
+
+    .memo_tt    {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:15px; color:#000000; line-height:17px;}
+    .memo_ls_tt   {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:14px; color:#000000; line-height:17px; letter-spacing:-1px;}
+    .memo_ls_sb   {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:12px; color:#666666; line-height:14px;}
+
+    .mz_ls_tt   {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:15px; color:#000000; line-height:17px; letter-spacing:-1px;}
+    .mz_ls_tx   {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:13px; color:#666666; line-height:15px; letter-spacing:-1px;}
+    .mz_ls_sb   {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:12px; color:#999999; line-height:14px;}
+
+    .bd_ls_tt   {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:15px; color:#000000; line-height:17px; letter-spacing:-1px; width:auto;}
+    .bd_ls_tx   {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:13px; color:#333333; line-height:15px; letter-spacing:-1px;}
+    .bd_ls_sb   {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:12px; color:#999999; line-height:14px;}
+    .bd_vw_tt   {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:15px; color:#000000; line-height:17px; font-weight:bold;}
+    .bd_vw_sb   {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:12px; color:#777777; line-height:14px;}
+    .bd_vw_ct   {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:14px; color:#000000; line-height:22px;}
+    .bd_vw_cm   {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:14px; color:#000000; line-height:22px;}
+
+    .num_cmt_   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#006600; line-height:13px;}
+    .num_cmt_1  {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#006600; line-height:13px;}
+    .num_cmt_2  {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#FF0000; line-height:13px;}
+    .num_cmt_3  {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#0033FF; line-height:13px;}
+
+    .list_ar  {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:13px; color:#dddddd; font-weight:bold;}
+
+    .paging_list  {text-decoration:none; font-family:Nanum Gothic,nanumgothicweb,돋움,돋움체,dotum; font-size:13px; color:#000000; line-height:13px; letter-spacing:-1px;}
+
+
+
+    /*** 기본폰트관련 ***/
+
+    .big_00     {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:14px; color:#000000; font-weight:bold; line-height:16px;}
+    .big_99     {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:14px; color:#999999; font-weight:bold; line-height:16px;}
+    .middle_00    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#000000; line-height:14px;}
+    .middle_33    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#333333; line-height:14px;}
+    .middle_55    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#555555; line-height:14px;}
+    .middle_77    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#777777; line-height:14px;}
+    .middle_99    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#999999; line-height:14px;}
+    .middle_00_1    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#000000; line-height:14px; letter-spacing:-1px;}
+    .middle_33_1    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#333333; line-height:14px; letter-spacing:-1px;}
+    .middle_55_1    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#555555; line-height:14px; letter-spacing:-1px;}
+    .middle_77_1    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#777777; line-height:14px; letter-spacing:-1px;}
+    .middle_99_1    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#999999; line-height:14px; letter-spacing:-1px;}
+    .middle_00_bt_1   {text-decoration:none; font-family:바탕,바탕체; font-size:12px; color:#000000; line-height:14px; letter-spacing:-1px;}
+    .middle_ea    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#EAEAEA; font-weight:bold; line-height:14px;}
+    .middle_cc    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#CCCCCC; line-height:14px;}
+    .middle_00_b    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#000000; font-weight:bold; line-height:14px;}
+    .middle_77_b    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#777777; font-weight:bold; line-height:14px;}
+    .middle_99_b    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#999999; font-weight:bold; line-height:14px;}
+    .middle_ff    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#FFFFFF; line-height:14px;}
+    .middle_ff_b    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#FFFFFF; font-weight:bold; line-height:14px;}
+    .middle_00_b_1    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#000000; font-weight:bold; line-height:14px; letter-spacing:-1px;}
+    .middle_77_b_1    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#777777; font-weight:bold; line-height:14px; letter-spacing:-1px;}
+    .middle_99_b_1    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#999999; font-weight:bold; line-height:14px; letter-spacing:-1px;}
+    .middle_ff_b_1    {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#FFFFFF; font-weight:bold; line-height:14px; letter-spacing:-1px;}
+    .middle_ff_b_eng    {text-decoration:none; font-family:tahoma; font-size:11px; color:#FFFFFF; font-weight:bold; line-height:13px;}
+
+    .small_ff     {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#FFFFFF; line-height:13px;}
+    .small_00     {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#000000; line-height:13px;}
+    .small_33     {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#333333; line-height:13px;}
+    .small_55     {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#555555; line-height:13px;}
+    .small_77     {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#777777; line-height:13px;}
+    .small_99     {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#999999; line-height:13px;}
+    .small_99_bt    {text-decoration:none; font-family:바탕,바탕체; font-size:11px; color:#999999; line-height:13px;}
+    .small_00_1   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#000000; line-height:13px; letter-spacing:-1px;}
+    .small_55_1   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#555555; line-height:13px; letter-spacing:-1px;}
+    .small_77_1   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#777777; line-height:13px; letter-spacing:-1px;}
+    .small_99_1   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#999999; line-height:13px; letter-spacing:-1px;}
+    .small_ff_1   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#FFFFFF; line-height:13px; letter-spacing:-1px;}
+    .small_00_b   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#000000; font-weight:bold; line-height:13px;}
+    .small_77_b   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#777777; font-weight:bold; line-height:13px;}
+    .small_99_b   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#999999; font-weight:bold; line-height:13px;}
+    .small_00_b_1   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#000000; font-weight:bold; line-height:13px; letter-spacing:-1px;}
+    .small_55_b_1   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#555555; font-weight:bold; line-height:13px; letter-spacing:-1px;}
+    .small_77_b_1   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#777777; font-weight:bold; line-height:13px; letter-spacing:-1px;}
+    .small_99_b_1   {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#999999; font-weight:bold; line-height:13px; letter-spacing:-1px;}
+    .small_55_eng   {text-decoration:none; font-family:tahoma; font-size:11px; color:#555555; line-height:13px;}
+    .small_cc     {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#cccccc; line-height:13px;}
+    .small_red      {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:red; line-height:13px;}
+
+    .ssmall_00    {text-decoration:none; font-family:tahoma; font-size:9px; color:#000000; line-height:13px;}
+    .ssmall_55    {text-decoration:none; font-family:tahoma; font-size:9px; color:#555555; line-height:13px;}
+    .ssmall_77    {text-decoration:none; font-family:tahoma; font-size:9px; color:#777777; line-height:13px;}
+    .ssmall_99    {text-decoration:none; font-family:tahoma; font-size:9px; color:#999999; line-height:13px;}
+    .ssmall_cc    {text-decoration:none; font-family:tahoma; font-size:9px; color:#cccccc; line-height:13px;}
+    .ssmall_ff      {text-decoration:none; font-family:tahoma; font-size:9px; color:#FFFFFF; line-height:13px;}
+    .ssmall_00_b    {text-decoration:none; font-family:tahoma; font-size:9px; color:#000000; font-weight:bold; line-height:13px;}
+    .ssmall_bb_b    {text-decoration:none; font-family:tahoma; font-size:9px; color:#BBBBBB; font-weight:bold; line-height:13px;}
+    .ssmall_ff_b    {text-decoration:none; font-family:tahoma; font-size:9px; color:#FFFFFF; font-weight:bold; line-height:13px;}
+
+    /*** 폼_텍스트필드 ***/
+
+    form{ margin:0; }
+
+    .f_td      {padding-right:8px;}
+
+    .f_login {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:1px solid #dddddd; height:20px; padding:3px; padding-top:3px; padding-bottom:2px; text-align:center; width:100%; font-weight:bold;}
+
+
+    .f_text_dfl_1             {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:1px solid #dddddd; height:14px; padding:2px; padding-top:3px; padding-bottom:1px; padding-left:2px; padding-right:2px;}
+    .f_text_dfl_2             {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:1px solid #f85757; height:14px; padding:2px; padding-top:3px; padding-bottom:1px; padding-left:2px; padding-right:2px;}
+
+    .f_text_dfl_c_1           {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:1px solid #dddddd; height:14px; padding:2px; padding-top:3px; padding-bottom:1px; padding-left:2px; padding-right:2px; text-align:center;}
+    .f_text_dfl_c_2           {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:1px solid #f85757; height:14px; padding:2px; padding-top:3px; padding-bottom:1px; padding-left:2px; padding-right:2px; text-align:center;}
+
+    .f_text_dfl_c_p_1         {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:1px solid #dddddd; height:14px; padding:2px; padding-top:3px; padding-bottom:1px; text-align:right; font-weight:bold;}
+    .f_text_dfl_c_p_2         {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:1px solid #f85757; height:14px; padding:2px; padding-top:3px; padding-bottom:1px; text-align:right; font-weight:bold;}
+
+
+    .f_text_100_1             {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:1px solid #dddddd; height:14px; padding:3px; padding-top:3px; padding-bottom:2px; width:100%;}
+    .f_text_100_2             {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:2px solid #f85757; height:14px; padding:2px; padding-top:2px; padding-bottom:1px; width:100%;}
+
+    .f_text_100_c_1           {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:1px solid #dddddd; height:14px; padding:3px; padding-top:3px; padding-bottom:2px; text-align:center; width:100%;}
+    .f_text_100_c_2           {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:2px solid #f85757; height:14px; padding:2px; padding-top:2px; padding-bottom:1px; text-align:center; width:100%;}
+
+    .f_text_100_c_p_1         {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:1px solid #dddddd; height:14px; padding:3px; padding-top:3px; padding-bottom:2px; text-align:right; font-weight:bold; width:100%;}
+    .f_text_100_c_p_2         {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:2px solid #f85757; height:14px; padding:2px; padding-top:2px; padding-bottom:1px; text-align:right; font-weight:bold; width:100%;}
+
+    .f_area_100_1             {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:1px solid #dddddd; width:100%; padding:3px; padding-top:3px; padding-bottom:2px; resize:none; line-height:24px;}
+    .f_area_100_2             {font-family:돋움,돋움체,dotum; font-size:14px; background-color:#FFFFFF; color:#000000; border:2px solid #f85757; width:100%; padding:2px; padding-top:2px; padding-bottom:1px; resize:none; line-height:24px;}
+
+    .f_lock_100               {font-family:돋움,돋움체,dotum; font-size:14px; font-weight:bold; background-color:#FFFFFF; color:#000000; border:1px solid #dddddd; height:22px; padding:3px; padding-top:3px; padding-bottom:2px; width:100%; background-image:url('/img/f_lock.gif'); background-repeat:no-repeat;background-position:bottom right; cursor:pointer;}
+    .f_lock_100_c             {font-family:돋움,돋움체,dotum; font-size:14px; font-weight:bold; background-color:#FFFFFF; color:#000000; border:1px solid #dddddd; height:22px; padding:3px; padding-top:3px; padding-bottom:2px; text-align:center; width:100%; background-image:url('/img/f_lock.gif'); background-repeat:no-repeat;background-position:bottom right; cursor:pointer;}
+
+    .f_sel_confirm_bg         {font-family:돋움,돋움체,dotum; font-size:12px; background-color:#eeeeee; color:#000000; border:1px solid #dddddd; height:14px; padding:3px; padding-top:3px; padding-bottom:2px; width:100%;}
+    .f_sel_confirm_bg_c       {font-family:돋움,돋움체,dotum; font-size:12px; background-color:#eeeeee; color:#000000; border:1px solid #dddddd; height:14px; padding:3px; padding-top:3px; padding-bottom:2px; text-align:center; width:100%;}
+
+    /*** 폼_셀렉트 ***/
+
+    .f_sel_small_kor_ee       {font-family:돋움,돋움체,dotum; font-size:11px; color:#000000; background-color:#EEEEEE;}
+    .f_sel_small_kor_ff       {font-family:돋움,돋움체,dotum; font-size:11px; color:#000000; background-color:#FFFFFF; border:1px solid #cccccc;}
+
+    .f_sel_middle_kor_ee      {font-family:돋움,돋움체,dotum; font-size:12px; color:#000000; background-color:#FFFFFF; border:1px solid #cccccc; height:20px;}
+    .f_sel_middle_kor_ff      {font-family:돋움,돋움체,dotum; font-size:12px; color:#000000; background-color:#FFFFFF; border:1px solid #cccccc; height:20px;}
+
+    .f_sel_small_kor_ff_ct    {font-family:돋움,돋움체,dotum; font-size:11px; text-align:center;}
+    .f_sel_small_kor_ff_ct_b  {font-family:돋움,돋움체,dotum; font-size:11px; text-align:center; font-weight:bold;}
+
+    /*** 버튼 ***/
+
+    .edit_f_bt                {font-family:돋움,돋움체,dotum; font-size:12px; height:20px; cursor: pointer;}
+    .edit_fieldset            {font-family:돋움,돋움체,dotum; font-size:12px; border:1px solid #CBCBCB; padding:0px 5px 0px 5px; line-height:12px;}
+
+
+
+
+
+    /*** 상단 버튼 ***/
+
+    .bt_small_00            {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#000000; line-height:11px;}
+    .bt_small_ff            {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#FFFFFF; line-height:11px;}
+    .bt_small_55            {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#555555; line-height:11px;}
+    .bt_small_99            {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#999999; line-height:11px;}
+
+    .bt_small_00_1      {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#000000; line-height:11px; letter-spacing:-1px;}
+    .bt_small_ff_1      {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#FFFFFF; line-height:11px; letter-spacing:-1px;}
+    .bt_small_55_1      {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#555555; line-height:11px; letter-spacing:-1px;}
+    .bt_small_99_1      {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#999999; line-height:11px; letter-spacing:-1px;}
+
+    .bt_middle_ff       {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#FFFFFF; line-height:12px;}
+    .bt_middle_55           {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#555555; line-height:12px;}
+
+    .pop_middle_ff            {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#FFFFFF; line-height:12px;}
+    .pop_middle_55            {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#555555; line-height:12px;}
+    .pop_middle_00            {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:12px; color:#000000; line-height:12px;}
+
+    .pop_small_ff             {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#FFFFFF; line-height:11px;}
+    .pop_small_cc             {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#CCCCCC; line-height:11px;}
+    .pop_small_99             {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#999999; line-height:11px;}
+    .pop_small_77             {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#777777; line-height:11px;}
+    .pop_small_55             {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#555555; line-height:11px;}
+    .pop_small_33             {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#333333; line-height:11px;}
+    .pop_small_00             {text-decoration:none; font-family:돋움,돋움체,dotum; font-size:11px; color:#000000; line-height:11px;}
+
+    -->
+  </style>
+
+  <script>
+    if (
+      confirm(
+        '회원로그인을 하셔야 게시글 열람이 가능 합니다.\n\n지금 로그인을 하시겠습니까?'
+      )
+    ) {
+      location.replace(
+        '/mypage/?M=login&login_B_url=%2Fboard%2Fboard.php%3Fg_id%3Drecycle02%26t_id%3DMenu31Top6%26page%3D1%26no%3D421241'
+      );
+    } else {
+      history.go(-1);
+    }
+  </script>
+</html>
